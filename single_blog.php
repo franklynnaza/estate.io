@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css" rel="stylesheet" />
+  <!---swiper-->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+<!-- costum css -->
+<link rel="stylesheet" href="./assets/style.css">
+<link rel="stylesheet" href="./assets/media.css">
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- MDB -->
+<link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png">
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js"
+></script>
+ <title>Ojoor Properties and Global Consultant</title>
+</head>
+
+<body>
+  <header class="header" >
+    <div class="">
+
+      <!--boootstrap nav-->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span class="color-primary"><img src="./assets/img/logo.png" alt="" class="polish"></span> <span class="c-name">Ojoor Properties Globals</span>  </a>
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <a class="nav-link " aria-current="page" href="./index.php">Home</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link active" href="./About.html">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="./Blog.html">Blog</a>
+            </li>
+           <li class="nav-item">
+                <a class="nav-link" href="./Projects.php">Sales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./rent.php">Lettings</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contact.html">Contact</a>
+            </li>
+
+           
+            <a href="./Projects.php" class="btn  btn-themee">Get started</a>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--boootstrap nav-->
+    </div>
+  </header>
+
+
+
+
+ <span class="bg-blur">  </span> 
+  <div class=" contact-form">
+    <div class="formcont">
+      <div class="formbtn">
+          <span onclick="login()">
+              LOG IN
+          </span>
+          <span  onclick="register()">
+              REGISTER
+          </span>
+          <hr id="indicator">
+      </div>
+      <form action="" id="log">
+          <input type="text" placeholder="username">
+          <input type="password" placeholder="password">
+          <button type="submit" class="btn">Log in</button>
+          <br>
+          <a href=""> Forgot password</a>
+      </form>
+      <form action="" id="reg">
+          <input type="text" placeholder="username">
+          <input type="email" placeholder="email">
+          <input type="password" placeholder="password">
+          <button type="submit" class="btn">register</button>
+        
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--smaller screen-->
+
+
+<span class="bg-blurr"></span>
+  <div class=" contact-form">
+    <div class="form-cont">
+      <div class="form-btn">
+          <span onclick="loginn()">
+              LOG IN
+          </span>
+          <span  onclick="registerr()">
+              REGISTER
+          </span>
+          <hr id="indicatorr">
+      </div>
+      <form action="" id="logg">
+          <input type="text" placeholder="username">
+          <input type="password" placeholder="password">
+          <button type="submit" class="btn">Log in</button>
+          <br>
+          <a href=""> Forgot password</a>
+      </form>
+      <form action="" id="regg">
+          <input type="text" placeholder="username">
+          <input type="email" placeholder="email">
+          <input type="password" placeholder="password">
+          <button type="submit" class="btn">register</button>
+         
+      </form>
+    </div>
+  </div>
+
+  
+
+  <section class="about about-about">
+    
+    <div class="container">
+      
+        <h1 class="h1 h1-responsive mb-4 centerr">About Us</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="image"data-aos="fade-right"  data-aos-duration="300">
+            <img src="./assets/img/ownermain.jpg" class="image
+        " alt="">
+          </div>
+        </div>
+        <div class="col-md-5 pl-md-5 px-4 mt-md-0 mt-5" data-aos="fade-up"  data-aos-duration="300">
+         
+          <h1 class="h1 h1-responsive mb-4">Our Profile</h1>
+          <p>At OjoorProperties, we're dedicated to streamlining property transactions in Lagos, Nigeria. As a trusted intermediary, we connect buyers and sellers, providing comprehensive services that cater to diverse needs.
+
+            Our founders envisioned a professional, reliable, and customer-centric platform that simplifies real estate transactions. Since inception, we've delivered exceptional results, personalized solutions, and unmatched customer service.
+            
+            With in-depth local market knowledge and an extensive network, we've successfully served individuals, families, investors, and businesses. Our commitment to excellence, integrity, and client satisfaction has earned us a loyal client base.
+            
+            At OjoorProperties, we pride ourselves on being the go-to platform for all your real estate needs in Lagos, Nigeria</p>
+         
+         <div class="wrap">
+               <button class="btn btn-theme buy my-2" data-aos="fade-right"><a href="tel:+234 808 467 1148">Contact Us</a></button>
+          <ul class=" socials d-flex">
+            <li><a href="https://www.instagram.com/officialojoorproperties/" data-aos="fade-right"><i class="fa-brands fa-instagram"></i></a></li>
+           
+            <li><a href="https://api.whatsapp.com/send?phone=2348084671148&text=Hi%20I%20saw%20a%20property%20on%20your%20website%20and%20I'd%20love%20to%20purchase" data-aos="fade-right"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61571080933832" data-aos="fade-right"><i class="fa-brands fa-facebook"></i></a></li>
+         
+          </ul>
+            
+        </div>
+          
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="services about-services ">
+    <div class="container">
+     
+      <h3 class=" color-primary m-0">Mission Statement</h3>
+      <br>
+      <div class="d-flex my-3 mission-s ">
+        <div class=" shadow service-show" data-aos="fade-up"  data-aos-duration="1000">
+          <i class="fa-solid fa-user"></i>
+          <h4 class="h5">Our Business-</h4>
+          <p>We are committed to operate an ethical business in the real estate and valuation industry offering services that provide total satisfaction and/or exceed the expectations of all our clients </p>
+        </div>
+        <div class=" shadow service-show" data-aos="fade-up"  data-aos-duration=" 1000">
+          <i class="fa-solid fa-desktop"></i>
+          <h4 class="h5">Quality to our Customer -</h4>
+          <p>We value our clients as the foundation of our business. Our relationships with clients are based on principles of mutual benefit and respect. Our goal is to develop profitable and lasting relationships. We aim to build on what we do well and to innovate to meet changing needs of our clients</p>
+        </div>
+        <div class=" shadow service-show" data-aos="fade-up"  data-aos-duration="1000">
+          <i class="fa-solid fa-house-chimney"></i>
+          <h4 class="h5">Quality to our Staff -</h4>
+          <p>We respect the skills and experience of our staff and value the role that every person makes to the business team. Our goal is to work together to reward, train and develop our staff in ways that acknowledge performance and individual abilities.</p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  
+
+
+
+ 
+  <section class="feature-section">
+    <div class="container">
+      
+      <h1 class="h1 h1-responsive mb-4">OurTeam Of Profeessionals</h1>
+      
+      <br>
+      <div class="property-slider">
+
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/ojoare.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">OJOARE GAFAR
+                    </h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/tolu.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">ISHOLA TOLULOPE 
+                    </h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/kow.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">OJOARE KOWIY</h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/awolo.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">AROWOLO LUKMAN</h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/john.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">ONOJAH JOHN 
+                    </h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/eliz.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">ELIZABETH TEMURU
+                    </h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/lateef.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">LATEEF RUTH</h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/folasha.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">OJOARE FOLASHADE</h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="property-list shadow">
+                <div class="image team">
+                  <img src="./assets/img/CHIEF CHINEDU ALEX UCHE.jpg" alt="" >
+                </div>
+                
+                <div class="d-flex justify-content-between mb-4">
+                  <div class="item">
+                    <h4 class="m-0">CHIEF CHINEDU ALEX UCHE</h4>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+            
+            
+
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="work-section work-section-about">
+    <div class="container" data-aos="zoom-in">
+      <h6 class="h6 color-primary m-0">Branch</h6>
+      <h1 class="h1 h1-responsive mb-4">Our Branch Network</h1>
+    
+      <div class="d-flex justify-content-center branch-n">
+
+        
+       <div class="branch-nn">
+        <div class=" service-show shadow">
+          <i class="fas fa-location-dot "></i>
+
+          <h4 class="h5 mb-46">LAGOS:</h4>
+          <p>We currently branch in Lagos; No 36, yaya Abatan Road, Ogba, Ikeja, Lagos state and plan expanding to Ogun state and Ibadan.</p>
+        </div>
+       </div>
+       
+        
+
+
+      </div>
+    </div>
+  </section>
+
+
+<br>
+<br>
+<br>
+
+ 
+
+
+
+
+
+<section class="mail-section">
+ 
+  <div class="container">
+    <h1 class="h1 h1-responsive mb-4">Have Any Questions In Mind?</h1>
+    <h4>Let Us Help You.</h4>
+  </div>
+  <form class="contact-form" action="mail_handler.php" method="POST">
+  <div class="  form shadow" data-aos="fade-right"
+   data-aos-offset="300"
+   data-aos-easing="ease-in-sine">
+    <div class="" >
+      <div class=" my-auto" >
+        <input type="email"  id="email" name="email"   class=" form-control "  placeholder="your Email">
+      </div>
+    </div>
+  </div>
+  <div class=" text-right" data-aos="fade-up"   data-aos-duration="1000">
+    <button class="btn btn-theme btn-feature buy" type="submit">Submit</button>
+  </div>
+  </form>
+</section>
+
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-2 my-md-auto my-4">
+         <img src="./assets/img/logo.png" alt="" class="footer-logo">
+         <h4 class="h3"> Ojoor Properties And  Global Consultants   NIG LTD </h4>
+        </div>
+        
+        <div class="col-md-2 my-md-auto my-4 ">
+          <h6> Access </h6>
+          <center><hr></center>
+          <ul>
+           
+            <li><a href="https://www.instagram.com/officialojoorproperties/"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61571080933832"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=2348084671148&text=Hi%20I%20saw%20a%20property%20on%20your%20website%20and%20I'd%20love%20to%20purchase"><i class="fa-brands fa-whatsapp"></i>Whatsapp </a></li>
+           
+          </ul>
+        </div>
+        <div class="col-md-2 my-md-auto my-4 footer-location">
+          
+          <h6>Locatiion</h6>
+          <center><hr></center>
+          <ul>
+  
+            <li><a href=""><i class="fas fa-location-dot"></i> Lagos</a></li>
+            <li><a href=""><i class="fas fa-location-dot"></i> Ibadan</a></li>
+            <li><a href=""><i class="fas fa-location-dot"></i> Ogun</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 my-md-auto my-4">
+          
+          <h6>services</h6>
+          <center><hr></center>
+          <ul>
+            <li><a href="">Real Estate And General Construction</a></li>
+            <li><a href="">Real Estate Advisory/Project Supervisor</a></li>
+            <li><a href=""> Property Management</a></li>
+            <li><a href=""> Property Dvelopement</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-2"> 
+          
+          <h6>contact</h6>
+         <center><hr></center>
+           <ul>
+           <li> <a href="tel:+234 808 467 1148"><i class="fas fa-phone"></i>+234 808 467 1148</a></li>
+            <li><a href="mailto:orjoomancity1@gmail.com"><i class="fas fa-envelope"></i>orjoomancity1@gmail.com</a></li>
+           
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+
+
+<script type="text/javascript" src="./jquery-3.6.4.slim.js"> </script>
+<script src="./assets/jquery.js"></script>
+
+<script src="./assets/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ 
+  <script>
+    var swiper = new Swiper('.swiper', {
+      // Optional parameters
+
+
+      loop: true,
+      slidesPerView: 1.5,
+      spaceBetween: 30,
+      centeredSlides: true,
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      }
+    })
+
+
+
+    var firstIndex=0;
+
+function automaticSlide(){
+
+setTimeout(automaticSlide, 5000); var pics;
+
+const img=document.querySelectorAll('.moving');
+
+for(pics=0; pics<img.length;pics++){ img[pics].style.display="none";
+
+}
+
+firstIndex++;
+
+if(firstIndex > img.length) { firstIndex =1;
+
+}
+
+img[firstIndex -1].style.display="block";
+
+} automaticSlide();
+
+
+   
+   
+  </script>
+</body>
+
+</html>
